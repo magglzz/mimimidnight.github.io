@@ -95,11 +95,17 @@ a:focus {
   color: var(--main-color);
 }
 
+.link {
+	text-decoration: underline;
+	color: var(--main-color);
+	font-weight: 500;
+}
+
 h1 {
 font-family: Anton;
-  font-size: 2.5rem; 
+  font-size: 2rem; 
   text-transform: uppercase;
-  line-height: 1.2em;
+  line-height: 1em;
   color: var(--text-color);
   margin: 0;
   letter-spacing: 0.05em;
@@ -155,14 +161,6 @@ p {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-}
-ul {
-	font-size: 1.2em;
-	line-height: 1.4em;
-}
-ol {
-	font-size: 1.2em;
-	line-height: 1.4em;
 }
 
 /********************************/
@@ -892,7 +890,9 @@ h6 {
     padding: 0;
     width: 100%;
   }
-  
+  .centercontainer {
+  padding: 0em;
+  }
 }
 @media screen and (max-width: 660px) {
 	.column {
@@ -912,12 +912,7 @@ h6 {
 	.project-page p {
 		font-size: 1.1rem;
 	}
-	ul {
-	font-size: 1.1rem;
-	}
-	ol {
-	font-size: 1.1rem;
-	}
+
 	.body-content {
 		display:flex;
 		justify-content: center;
@@ -1019,7 +1014,7 @@ h6 {
   width: 120px;
   }
   .centercontainer {
-  padding: 1rem;
+  padding: 0rem;
   } 
   .contact-item {
   margin: 1em;
